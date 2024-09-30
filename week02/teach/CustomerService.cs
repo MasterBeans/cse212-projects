@@ -11,9 +11,13 @@ public class CustomerService {
         // Test Cases
 
         // Test 1
-        // Scenario: 
-        // Expected Result: 
+        // Scenario: -2
+        // Expected Result: The maximum number of new customers added should be 10.
         Console.WriteLine("Test 1");
+
+        new CustomerService(-2);
+
+
 
         // Defect(s) Found: 
 
